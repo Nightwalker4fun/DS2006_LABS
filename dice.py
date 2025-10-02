@@ -1,13 +1,5 @@
 import random
 
-input("Press Enter to roll the Dice")
-
-# Roll the dice
-result = random.randint(1, 20)
-
-# Show the result
-print("You rolled a", result, "out of D20")
-
 def rollD4():
     return random.randint(1, 4)
 
